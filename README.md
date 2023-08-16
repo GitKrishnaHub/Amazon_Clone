@@ -1,2 +1,3 @@
 # Amazon_Clone
-Using React.JS
+Using React.JS | Tailwind CSS
+
