@@ -1,0 +1,57 @@
+.amazon_logo{
+    padding-right: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amazon_logo:hover{
+    border:1px solid white;  
+    cursor: pointer;
+  
+}
+.delivery{
+    padding-right: 2px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.delivery:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+
+.search{
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.search_icon{
+    width: 12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.list_items:hover{
+    background: skyblue;
+}
+.headerHover:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+.list{
+    text-align: center;
+}
+.sidebar{
+   overflow-y: scroll;
+   
+}
+.sidebar::-webkit-scrollbar{
+   background-color: transparent;
+   scroll-snap-type: proximity;
+
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: rgb(178, 177, 177);
+}
